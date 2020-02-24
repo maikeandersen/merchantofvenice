@@ -1,6 +1,6 @@
 
 body {
-font-family: verdana, arial, sans-serif;
+font-family: sans-serif;
 }
 
 
@@ -29,6 +29,7 @@ a {
   color: rgb(15, 108, 30);
   text-decoration: none;
   font-family: cursive;
+  font-style: normal;
 
 }
 
@@ -44,4 +45,5 @@ div.everything{
   max-width:850px;
   padding:30px 50px;
   overflow:auto;
+}
 }
