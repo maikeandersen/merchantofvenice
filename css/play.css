@@ -1,0 +1,150 @@
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+}
+body {
+  font-family:sans-serif;
+  margin:20px auto;
+
+}
+
+div.dramatis {
+  width:70%;
+  margin:12px auto;
+  max-width:750px;
+  color: rgb(60, 172, 9);
+}
+div.play {
+  width:70%;
+  margin:12px auto;
+  min-width:100px;
+
+}
+div.sceneImage {
+}
+h1.act {
+text-align: center;
+font-size: 2em;
+line-height: 2;
+
+}
+p.character {
+font-size: 1.4em;
+color:rgb(15, 108, 30);
+}
+p.charactername {
+margin: 0 12px 0 40px;
+color:rgb(15, 108, 30);
+}
+h1.dramatishead {
+text-align: center;
+color: rgb(15, 108, 30);
+}
+h2.firstscene {
+text-align: center;
+color: rgb(15, 108, 30);
+}
+h2.location {
+text-align: center;
+color: rgb(60, 172, 9);
+font-style:italic;
+font-size: 1.3em;
+font-weight: lighter;
+
+}
+p.play_location {
+color: rgb(60, 172, 9);
+
+}
+p.prose {
+margin: 0 12px 0 60px;
+
+}
+h2.scene {
+text-align: center;
+color: rgb(15, 108, 30);
+}
+p.song {
+text-align:center;
+}
+h2.stagedirection {
+  font-size: 1.2em;
+  font-style:italic;
+color: rgb(60, 172, 9);
+font-weight: 400;
+text-align: left;
+}
+p.verseline {
+margin: 0 12px 0 60px;
+
+}
+span.characterrole {
+  color: rgb(60, 172, 9);
+  text-align: left;
+}
+span.stage_directions_inline {
+  color: rgb(60, 172, 9)
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+}
+
+ul {
+  background: darkgreen;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+}
+
+li {
+    color: #fff;
+  background: darkgreen;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+    background: green;
+    cursor: pointer;
+}
+
+ul li ul {
+    background: green;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 3rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+}
