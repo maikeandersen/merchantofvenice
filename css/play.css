@@ -89,7 +89,34 @@ img {
   margin: auto;
 }
 
+button {
+float:inherit;
+display:inline-block;
+padding:0.35em 1.2em;
+border:1px solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.8em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
 
+}
+button.play {
+  background: rgb(60, 172, 9);
+  }
+button.pause {
+  background: green;
+}
+button.stop {
+  background: darkgreen;
+}
+button:hover{
+background-color:grey;
+color:white;
+}
 /* a {
   text-decoration: none;
 }
@@ -259,7 +286,6 @@ ul li:hover > ul, ul li ul:hover {
 
 
 /* now follows the media query that displays everyhing correctly on wider screens */
-
 @media only screen and (min-width: 720px) {
 
 h1.act, h1.dramatishead {
@@ -320,6 +346,35 @@ margin: 0 12px 0 60px;
 
 p.prose {
   margin-bottom: 12px;
+}
+
+button {
+float:right;
+display:inline-block;
+padding:0.35em 1.2em;
+border:1px solid #FFFFFF;
+margin:0 0.3em 0.3em 0;
+border-radius:0.8em;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:300;
+color:#FFFFFF;
+text-align:center;
+
+}
+button.play {
+  background: rgb(60, 172, 9);
+  }
+button.pause {
+  background: green;
+}
+button.stop {
+  background: darkgreen;
+}
+button:hover{
+background-color:grey;
+color:white;
 }
 
 }
