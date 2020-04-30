@@ -287,7 +287,7 @@ ul li:hover > ul, ul li ul:hover {
 @media only screen and (max-midth:720px) {
   button{
     float:none;
-    word-wrap: none;
+
   }
 }
 /* now follows the media query that displays everyhing correctly on wider screens */
